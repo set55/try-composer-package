@@ -10,8 +10,8 @@ namespace Flower;
 
 class Lily
 {
-    public function desc()
+    public function desc(): string
     {
-        echo "this is lily flower";
+        return "this is lily flower";
     }
 }
